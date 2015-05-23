@@ -24,3 +24,7 @@ CREATE TABLE ProductClaims
 CREATE TABLE Veterinarian
 (Veterinarian int Primary Key, FirstName VARCHAR(50), LastName VARCHAR(50),  Street VARCHAR(50)  City VARCHAR(50),
   State VARCHAR(2), Zip  VARCHAR(13),  Country VARCHAR(50), Phone VARCHAR(20), Website VARCHAR(100), Logo VARCHAR(100));
+  
+  INSERT INTO Brands (Brand, Manufacturer) VALUES (Hill's Science Diet, Hill's);
+    INSERT INTO Brands (Brand, Manufacturer) VALUES (Hill's™ Prescription Diet, Hill's);
+	  INSERT INTO Brands (Brand, Manufacturer) VALUES (Purina Veterinary Diets, Purina);
