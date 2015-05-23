@@ -9,6 +9,10 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie/v8.css" /><![endif]-->
 		<!--[if lte IE 8]><script src="assets/css/ie/respond.min.js"></script><![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 	</head>
 	<body class="homepage">
 		<div id="page-wrapper">
@@ -53,7 +57,7 @@
 							<section id="banner">
 								<header>
 									<h2>What's in your pet's diet?</h2>
-									<p></p>
+									<img src="C:/PETHACK/Images/dog1.jpg"/>
 								</header>
 							</section>
 
@@ -62,29 +66,184 @@
 								<div class="row">
 									<div class="4u 12u(mobile)">
 										<section class="first">
-											<i class="icon featured fa-cog"></i>
-											<header>
-												<h2></h2>
-											</header>
-											<p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+											<div class="ui-grid-a">
+
+										<input type="text" name="petname" Value="Your Pet's Name">
+											<div class="ui-block-a">
+											
+											
+											<select name="Breed">
+										<option value="Breed">Breed</option>
+										<option value="">BREEDS GO HERE</option>	
+										</select>
+
+										<select name="Age">	
+										<option value="Age">Age</option>
+										<option value="Under 1 Year">Under 1 Year - Puppy</option>
+										<option value="1 - 2 Years">1 - 2 Years - Adult</option>
+										<option value="3 - 4 Years">3 - 4 Years - Adult</option>
+										<option value="5 - 6 Years - Adult">5 - 6 Years - Adult</option>
+										<option value="7 - 8 Years - Senior">7 - 8 Years - Senior </option>
+										<option value="9 - 10 Years - Senior">9 - 10 Years - Senior</option>
+										<option value="11 - 12 Years - Senior">11 - 12 Years - Senior</option>
+										<option value="13 - 14 Years - Senior">13 - 14 Years - Senior</option>
+										<option value="15 - 16 Years - Senior">15 - 16 Years - Senior</option>
+										<option value="17 and Over - Senior">17 and Over - Senior</option>
+										
+										
+										
+										</select>
+										
+										<select name="Diet Manufacturer">
+										<option value="Manufacturer">Manufacturer</option>
+										<option value="Hill's pet Nurtrition">Hill's Pet Nutrition</option>
+										<option value="Nature's Variety">Nature's Variety</option>
+										<option value="Iams">Iams</option>
+										<option value="Royal Canin">Royal Canin</option>
+										<option value="Diamond">Diamond</option>
+										<option value="Solid Gold">Solid Gold</option>
+										<option value="Blue Buffalo">Blue Buffalo</option>
+										</select>											
+											</div>
+											<div class="ui-block-b">
+										<select name="Weight">
+										<option value="Weight">Weight</option>
+										<option value="1-5">1-5</option>
+										<option value="6-10">6-10</option>
+										<option value="11-15">11-15</option>
+										<option value="16-20">16-20</option>
+										<option value="21-25">21-25</option>
+										<option value="26-30">26-30</option>
+										<option value="31-35">31-35</option>
+										<option value="36-40">36-40</option>
+										<option value="41-45">41-45</option>
+										<option value="46-50">46-50</option>
+										<option value="51-55">51-55</option>
+										<option value="56-60">56-60</option>
+										<option value="61-65">61-65</option>
+										<option value="66-70">66-70</option>
+										<option value="71-75">71-75</option>
+										<option value="76-80">76-80</option>
+										<option value="81-85">81-85</option>
+										<option value="86-90">86-90</option>
+										<option value="91-95">91-95</option>
+										<option value="96-100">96-100</option>
+										<option value="101-105">101-105</option>
+										<option value="106-110">106-110</option>
+										<option value="111-115">111-115</option>
+										<option value="116-120">116-120</option>
+										<option value="Over 120">Over 120</option>
+										
+										</select>
+										
+										
+										<select name="Activity Level">
+										<option value="Activity Level">Activity Level</option>	
+										<option value="Very Low">Very Low</option>	
+										<option value="Low">Low</option>
+										<option value="Moderate">Moderate</option>
+										<option value="Active">Active</option>
+										<option value="Very Active">Very Active</option>
+										</select>	
+
+										
+										<select name="Diet">	
+										<option value="">Hill's Science Diet</option>
+										<option value="">Hill's™ Prescription Diet™</option>
+										<option value="">Purina Veterinary Diets</option>
+										<option value="">PURINA ONE® SMARTBLEND®</option>
+										<option value="">PURINA ONE SMARTBLEND</option>
+										<option value="">PURINA PROPLAN(SAVOR®)</option>
+										<option value="">PURINA PROPLAN(SPORT®)</option>
+										<option value="">PURINA PROPLAN(FOCUS)</option>
+										<option value="">PURINA PROPLAN(SELECT®)</option>
+										<option value="">PURINA PROPLAN(SELECT™)</option>
+										<option value="">PURINA Beneful®</option>
+										<option value="">Purina® Dog Chow®</option>
+										<option value="">Purina Beyond®</option>
+										<option value="">Nature's Variety® Instinct® Raw</option>
+										<option value="">Nature's Variety® Instinct®</option>
+										<option value="">Nature's Variety® Instinct® Raw Boost</option>
+										<option value="">Nature's Variety® Instinct® Healthy Weight</option>
+										<option value="">Nature's Variety® Instinct® Limited</option>
+										<option value="">Nature's Variety® Prairie®</option>
+										<option value="">Iams® ProActive Health™</option>
+										<option value="">Iams® Grain Free Naturals™</option>
+										<option value="">Iams® Healthy Naturals™</option>
+										<option value="">Iams® Sensitive Naturals™</option>
+										<option value="">Iams® Premium Protection™</option>
+										<option value="">Iams® Veterinary Formula™</option>
+										<option value="">Iams® So Good™</option>
+										<option value="">Iams® Woof Delights</option>
+										<option value="">Iams® Shakeables</option>
+										<option value="">Royal Canin BREED HEALTH NUTRITION™</option>
+										<option value="">Royal Canin</option>
+										<option value="">Royal CaninX-SMALL</option>
+										<option value="">Royal Canin X-SMALL</option>
+										<option value="">Royal CaninMINI</option>
+										<option value="">Royal CaninMEDIUM</option>
+										<option value="">Royal CaninMAXI</option>
+										<option value="">Royal CaninGIANT</option>
+										<option value="">Royal CaninCanine Health Nutrition Wet</option>
+										<option value="">Diamond Naturals</option>
+										<option value="">Diamond</option>
+										<option value="">Diamond Naturals Grain-Free</option>
+										<option value="">Solid Gold</option>
+										<option value="">Blue Buffalo Life Protection Formula®</option>
+										<option value=""> Buffalo BLUE Freedom®</option>
+										<option value="">Blue Buffalo BLUE Basics®</option>
+										<option value="">BLUE Wilderness®</option>
+										<option value="">BLUE Homestyle Recipe®</option>
+										<option value="">BLUE Freedom®</option>
+										<option value="">BLUE Bones®</option>
+										<option value="">BLUE Mini Bars®</option>
+										<option value="">BLUE Bits®</option>
+										<option value="">BLUE Wilderness® Wild Chews</option>
+										<option value="">Life Protection Formula®</option>
+										<option value="">BLUE Basics®</option>
+										<option value="">BLUE Healthy Starts™</option>
+										<option value="">BLUE Chunky Stew™</option>
+										<option value="">BLUE Divine Delights™</option>
+										<option value="">BLUE Freedom® Grain-Free Grillers</option>
+										<option value="">BLUE Wilderness® Wild Cuts Trail Toppers™</option>
+										<option value="">BLUE Wilderness® Rocky Mountain Recipe™</option>
+										<option value="">BLUE Wilderness® Wolf Creek Stew™</option>
+										<option value="">Blue's Stew®</option>
+										<option value="">Boo Stew</option>
+										<option value="">BLUE Family Favorite Recipes®</option>
+										<option value="">BLUE Kitchen Cravings™</option>
+										<option value="">BLUE Boo Bars™</option>
+										<option value="">BLUE Wilderness® Dental Chews</option>
+										<option value="">BLUE Wilderness Trail Treats®</option>
+										<option value="">BLUE™ Health Bars</option>
+										<option value="">BLUE Bites®</option>
+										<option value="">BLUE Super Bars™</option>
+										<option value="">BLUE Stix™</option>
+										<option value="">BLUE Mini Stix™</option>
+										<option value="">BLUE Exuberance!®</option>
+										<option value="">BLUE Tranquility®</option>
+										<option value="">BLUE Wilderness Trail Treats ®</option>
+										<option value="">BLUE Joint Sticks™</option>
+										<option value="">BLUE Jolly Joints®</option>
+										
+										
+										</select>   
+											</div>	
+										<a href="result.html" class="ui-btn ui-corner-all ui-shadow">GET STARTED!</a>
+										</div>										
 										</section>
+										
 									</div>
 									<div class="4u 12u(mobile)">
 										<section class="middle">
-											<i class="icon featured alt fa-flash"></i>
-											<header>
-												<h2>Magna etiam dolor</h2>
-											</header>
-											<p>Nisl amet dolor sit ipsum veroeros sed blandit consequat veroeros et magna tempus.</p>
+											<i class=""></i>
+											
 										</section>
 									</div>
 									
 								</div>
 								<footer>
-									<ul class="actions">
-										<li><a href="#" class="button big">Search</a></li>
-										<li><a href="#" class="button alt big">Reset Form</a></li>
-									</ul>
+									
 								</footer>
 							</section>
 
