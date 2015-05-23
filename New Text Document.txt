@@ -1,1 +1,3 @@
 DSN=sql;server=localhost;database=Pethack;
+
+Trusted_Connection=True;server=localhost;Database=Pethack
