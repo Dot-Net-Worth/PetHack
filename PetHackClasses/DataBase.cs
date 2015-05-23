@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace PetHackClasses
 {
-    class DataBase
+    public static class DataBase
     {
+        
     }
 }
