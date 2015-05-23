@@ -1,0 +1,1 @@
+DSN=sql;server=localhost;database=Pethack;
