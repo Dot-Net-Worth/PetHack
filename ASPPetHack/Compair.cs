@@ -8,6 +8,7 @@ namespace ASPPetHack
 {
     class Compair
     {
+        //Will compair User input with Data base. Returning best matches
         public static List<Products> bestMatches()
         {
             return new List<Products>();
