@@ -1,0 +1,12 @@
+C:\GitRepos\ASPPetHack\ASPPetHack\bin\ASPPetHack.dll.config
+C:\GitRepos\ASPPetHack\ASPPetHack\bin\ASPPetHack.dll
+C:\GitRepos\ASPPetHack\ASPPetHack\bin\ASPPetHack.pdb
+C:\GitRepos\ASPPetHack\ASPPetHack\obj\Debug\ASPPetHack.csprojResolveAssemblyReference.cache
+C:\GitRepos\ASPPetHack\ASPPetHack\obj\Debug\ASPPetHack.dll
+C:\GitRepos\ASPPetHack\ASPPetHack\obj\Debug\ASPPetHack.pdb
+C:\GitRepos\PetHack\ASPPetHack\bin\ASPPetHack.dll.config
+C:\GitRepos\PetHack\ASPPetHack\bin\ASPPetHack.dll
+C:\GitRepos\PetHack\ASPPetHack\bin\ASPPetHack.pdb
+C:\GitRepos\PetHack\ASPPetHack\obj\Debug\ASPPetHack.csprojResolveAssemblyReference.cache
+C:\GitRepos\PetHack\ASPPetHack\obj\Debug\ASPPetHack.dll
+C:\GitRepos\PetHack\ASPPetHack\obj\Debug\ASPPetHack.pdb
