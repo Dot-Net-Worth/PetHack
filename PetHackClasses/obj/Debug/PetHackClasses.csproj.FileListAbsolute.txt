@@ -1,0 +1,5 @@
+C:\GitRepos\PetHack\PetHackClasses\bin\Debug\PetHackClasses.dll
+C:\GitRepos\PetHack\PetHackClasses\bin\Debug\PetHackClasses.pdb
+C:\GitRepos\PetHack\PetHackClasses\obj\Debug\PetHackClasses.csprojResolveAssemblyReference.cache
+C:\GitRepos\PetHack\PetHackClasses\obj\Debug\PetHackClasses.dll
+C:\GitRepos\PetHack\PetHackClasses\obj\Debug\PetHackClasses.pdb

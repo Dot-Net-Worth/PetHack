@@ -5,6 +5,28 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetHackClasses", "PetHackClasses.csproj", "{A06A270A-5D4D-4C97-A36E-5D353653E5B6}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PethHackWebSite", "http://localhost:49911", "{9B60C5E3-05C0-4893-A92A-78B399E9C522}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49911"
+		Debug.AspNetCompiler.PhysicalPath = "..\PethHackWebSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49911\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49911"
+		Release.AspNetCompiler.PhysicalPath = "..\PethHackWebSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49911\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\PethHackWebSite\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +37,10 @@ Global
 		{A06A270A-5D4D-4C97-A36E-5D353653E5B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A06A270A-5D4D-4C97-A36E-5D353653E5B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A06A270A-5D4D-4C97-A36E-5D353653E5B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B60C5E3-05C0-4893-A92A-78B399E9C522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B60C5E3-05C0-4893-A92A-78B399E9C522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B60C5E3-05C0-4893-A92A-78B399E9C522}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B60C5E3-05C0-4893-A92A-78B399E9C522}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
